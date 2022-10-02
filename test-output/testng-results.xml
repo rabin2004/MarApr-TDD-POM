@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-02T11:43:06 EDT" name="Regression Suite" finished-at="2022-10-02T11:44:40 EDT" duration-ms="93942">
+    <groups>
+    </groups>
+    <test started-at="2022-10-02T11:43:06 EDT" name="Search Functionality Test" finished-at="2022-10-02T11:44:40 EDT" duration-ms="93942">
+      <class name="testPkg.SearchFunctionalityTest">
+        <test-method is-config="true" signature="loadApp()[pri:0, instance:testPkg.SearchFunctionalityTest@4dbb42b7]" started-at="2022-10-02T11:43:06 EDT" name="loadApp" finished-at="2022-10-02T11:43:23 EDT" duration-ms="17441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadApp -->
+        <test-method signature="negativeSearchFunctionalityTest(java.lang.String)[pri:0, instance:testPkg.SearchFunctionalityTest@4dbb42b7]" started-at="2022-10-02T11:43:23 EDT" name="negativeSearchFunctionalityTest" data-provider="negativeSearchData" finished-at="2022-10-02T11:43:28 EDT" duration-ms="4318" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[#*&#*()$KFNLKDFNDLKFNDLKFNLKNq092472834723894738924732894]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeSearchFunctionalityTest -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:testPkg.SearchFunctionalityTest@4dbb42b7]" started-at="2022-10-02T11:43:28 EDT" name="closeApp" finished-at="2022-10-02T11:43:28 EDT" duration-ms="351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method is-config="true" signature="loadApp()[pri:0, instance:testPkg.SearchFunctionalityTest@4dbb42b7]" started-at="2022-10-02T11:43:28 EDT" name="loadApp" finished-at="2022-10-02T11:43:40 EDT" duration-ms="12220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadApp -->
+        <test-method signature="negativeSearchFunctionalityTest(java.lang.String)[pri:0, instance:testPkg.SearchFunctionalityTest@4dbb42b7]" started-at="2022-10-02T11:43:40 EDT" name="negativeSearchFunctionalityTest" data-provider="negativeSearchData" finished-at="2022-10-02T11:43:48 EDT" duration-ms="7536" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[#*&#*()$KFNLKDFNDLKFNDLKFNLKNq092472834723894738924732894]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeSearchFunctionalityTest -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:testPkg.SearchFunctionalityTest@4dbb42b7]" started-at="2022-10-02T11:43:48 EDT" name="closeApp" finished-at="2022-10-02T11:43:48 EDT" duration-ms="520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method is-config="true" signature="loadApp()[pri:0, instance:testPkg.SearchFunctionalityTest@4dbb42b7]" started-at="2022-10-02T11:43:48 EDT" name="loadApp" finished-at="2022-10-02T11:44:00 EDT" duration-ms="12114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadApp -->
+        <test-method signature="positiveSearchFunctionalityTest(java.lang.String)[pri:0, instance:testPkg.SearchFunctionalityTest@4dbb42b7]" started-at="2022-10-02T11:44:00 EDT" name="positiveSearchFunctionalityTest" data-provider="positiveSearchFunctionalityData" finished-at="2022-10-02T11:44:05 EDT" duration-ms="4900" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[apple]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveSearchFunctionalityTest -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:testPkg.SearchFunctionalityTest@4dbb42b7]" started-at="2022-10-02T11:44:05 EDT" name="closeApp" finished-at="2022-10-02T11:44:06 EDT" duration-ms="447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method is-config="true" signature="loadApp()[pri:0, instance:testPkg.SearchFunctionalityTest@4dbb42b7]" started-at="2022-10-02T11:44:06 EDT" name="loadApp" finished-at="2022-10-02T11:44:13 EDT" duration-ms="7719" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadApp -->
+        <test-method signature="positiveSearchFunctionalityTest(java.lang.String)[pri:0, instance:testPkg.SearchFunctionalityTest@4dbb42b7]" started-at="2022-10-02T11:44:13 EDT" name="positiveSearchFunctionalityTest" data-provider="positiveSearchFunctionalityData" finished-at="2022-10-02T11:44:22 EDT" duration-ms="8743" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[samsung]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveSearchFunctionalityTest -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:testPkg.SearchFunctionalityTest@4dbb42b7]" started-at="2022-10-02T11:44:22 EDT" name="closeApp" finished-at="2022-10-02T11:44:22 EDT" duration-ms="378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method is-config="true" signature="loadApp()[pri:0, instance:testPkg.SearchFunctionalityTest@4dbb42b7]" started-at="2022-10-02T11:44:22 EDT" name="loadApp" finished-at="2022-10-02T11:44:32 EDT" duration-ms="9988" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadApp -->
+        <test-method signature="positiveSearchFunctionalityTest(java.lang.String)[pri:0, instance:testPkg.SearchFunctionalityTest@4dbb42b7]" started-at="2022-10-02T11:44:32 EDT" name="positiveSearchFunctionalityTest" data-provider="positiveSearchFunctionalityData" finished-at="2022-10-02T11:44:39 EDT" duration-ms="6650" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveSearchFunctionalityTest -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:testPkg.SearchFunctionalityTest@4dbb42b7]" started-at="2022-10-02T11:44:39 EDT" name="closeApp" finished-at="2022-10-02T11:44:40 EDT" duration-ms="413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- testPkg.SearchFunctionalityTest -->
+    </test> <!-- Search Functionality Test -->
+  </suite> <!-- Regression Suite -->
+</testng-results>
