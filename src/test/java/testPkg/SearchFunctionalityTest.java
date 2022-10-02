@@ -9,6 +9,8 @@ import basePkg.MainClass;
 import pageFactoryPkg.HomePage;
 import pageFactoryPkg.SearchResultPage;
 
+// Assignment: any application | Create TDD POM | 4-5 Features -> as many test cases | Share report
+
 public class SearchFunctionalityTest extends MainClass{
 	HomePage hp;
 	SearchResultPage srp;
